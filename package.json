@@ -1,6 +1,5 @@
 {
   "name": "hello-tsx-app",
-  "homepage": "https://hcanning.github.io/tsx1/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,8 +7,6 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
